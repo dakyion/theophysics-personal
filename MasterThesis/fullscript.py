@@ -1,35 +1,9 @@
-import fermionscript as fs
+## Written by Abdennour Harche
+## Mars 2024
+
+# Run this script to use my VQE methods
+
+from fermionscript import storingjob4
 import numpy as np
 
-#fs.graphingjob9(16,8,np.linspace(0,1,10),2)
-#fs.graphingjob6(8,2,np.linspace(0,1,100),1)
-#fs.storingjob2(8,2,np.linspace(0,1,10), 1)
-# fs.storingjob3(18,2,np.linspace(0,1,10))
-# fs.storingjob3(20,2,np.linspace(0,1,10))
-# fs.storingjob3(22,2,np.linspace(0,1,10))
-# fs.storingjob3(8,4,np.linspace(0,1,10))
-# fs.storingjob3(10,4,np.linspace(0,1,10))
-# fs.storingjob3(12,4,np.linspace(0,1,10))
-# fs.storingjob3(14,4,np.linspace(0,1,10))
-# fs.storingjob3(16,4,np.linspace(0,1,10))
-# fs.storingjob3(18,4,np.linspace(0,1,10))
-# fs.storingjob3(20,4,np.linspace(0,1,10))
-# fs.storingjob3(22,4,np.linspace(0,1,10))
-# fs.storingjob3(8,6,np.linspace(0,1,10))
-# fs.storingjob3(10,6,np.linspace(0,1,10))
-# fs.storingjob3(12,6,np.linspace(0,1,10))
-# fs.storingjob3(14,6,np.linspace(0,1,10))
-# fs.storingjob3(16,6,np.linspace(0,1,10))
-# fs.storingjob3(18,6,np.linspace(0,1,10))
-# fs.storingjob3(20,6,np.linspace(0,1,10))
-# fs.storingjob3(22,6,np.linspace(0,1,10))
-
-#fs.storingjob3(8,2,np.linspace(0,1,10))
-# fs.storingjob(8,2,np.linspace(0.1,1,10), 40)
-# fs.storingjob5(8,4,np.linspace(0.1,1,10))
-# fs.storingjob4(16,2,np.linspace(0.1,1,10))
-# fs.storingjob4(16,4,np.linspace(0.1,1,10))
-# fs.storingjob4(20,2,np.linspace(0.1,1,10))
-# fs.storingjob4(20,4,np.linspace(0.1,1,10))
-# fs.storingjob4(20,6,np.linspace(0.1,1,10))
-fs.storingjob4(20,2,np.linspace(0.1,1,10))
+storingjob4(20,2,np.linspace(0.1,1,10))

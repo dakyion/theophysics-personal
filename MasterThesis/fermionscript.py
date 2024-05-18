@@ -1,3 +1,8 @@
+## Written by Abdennour Harche
+## Mars 2024
+
+# This is a full package of methods for VQE for fermions in a Pairing Interaction
+
 # Import Packages
 from qiskit_aer.primitives import Estimator as AerEstimator
 from qiskit.primitives import Estimator

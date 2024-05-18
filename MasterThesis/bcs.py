@@ -1,3 +1,6 @@
+## Written by Abdennour Harche
+## Mars 2024
+
 import numpy as np
 from scipy.optimize import fsolve, minimize, root
 import matplotlib.pyplot as plt
