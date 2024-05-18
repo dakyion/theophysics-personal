@@ -1,7 +1,7 @@
 # theophysics-personal
 ## Theoretical Physics Personal Codes by Abdennour HARCHE
 This repository include some personal codes I wrote while pursuing a Master Degree in Theoretical Physics.
-(UPLOAD IN PROGRESS)
+
 ## (Master Thesis) Python Scripts and Jupyter notebooks for Simulating Quantum Circuits:
 $\cdot$ Shor's Algorithm.
 
